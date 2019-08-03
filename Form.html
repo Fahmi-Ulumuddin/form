@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title>Form Registrasi Account</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	</head>
+	<body bgcolor="#333333">
+		<form action="KTP.php" enctype="multipart/form-data" method="post">
+			<table width="800" height="960" border="1" align="center">
+				<tr>
+					<td height="94" valign="top" bgcolor="#083194"><font color="#FFFFFF"><br></font>
+						<blockquote>
+							<p>
+							  <center>
+									<font color="#FFFFFF" size="+2">FORM PENDAFTARAN AKUN ABSENSI</font>
+							  </center>
+						</blockquote>
+					</td>
+				</tr>
+				<tr>
+					<td width="669" valign="top" bgcolor="#FFFFFF">
+						<blockquote><p>
+						  <p><font color="red">* Silahkan Menginputkan Data Dengan Menggunakan Huruf Kapital</Font></p>
+						  <br>
+						  <p> NIP &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : <input type="text" name="nip" size="20"></p>
+						  <p> NAMA LENGKAP &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : <input type="text" name="nama"></p>
+						 
+							<p> ALAMAT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : <input type="text" name="alamat"></p>
+
+							<p> JENIS KELAMIN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+								<input type="radio" name="jk" value="LAKI-LAKI">LAKI-LAKI
+								<input type="radio" name="jk" value="PEREMPUAN">PEREMPUAN
+							</p>
+							<p> STATUS JABATAN &nbsp; &nbsp; &nbsp; &nbsp; :
+								<input type="text" name="jabatan" size="20">
+							</p>
+							<p> AGAMA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+								<select name="Agama">
+								  <option value="ISLAM">ISLAM</option>
+								  <option value="KRISTEN">KRISTEN</option>
+								  <option value="KATOLIK">KATOLIK</option>
+								  <option value="HINDU">HINDU</option>
+								  <option value="BUDHA">BUDHA</option>
+								</select>
+							</p>
+							<p>STATUS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :
+								<input type="checkbox" name="Status" value="belum menikah">
+								BELUM MENIKAH
+								<input type="checkbox" name="Status" value="menikah">
+								MENIKAH
+							</p>
+							<p>FOTO DIRI &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+								<input name="MAX_FILE_SIZE" type="FILE" value="3000000" />
+							</p>
+						</blockquote>
+							<br>
+							<p> <center><input type="submit" value="SIMPAN">
+							<input type="reset" value="BATAL"></center></p>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
